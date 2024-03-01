@@ -196,6 +196,7 @@ def main():
         df.to_csv(
             f"BRSR_Reports_{params['from_date']}_{params['to_date']}.csv", index=False
         )
+        print("Total files downloaded: ", len(df) - len(total_not_downloaded))
         print(
             "Mapped Response csv file:",
             f"BRSR_Reports_{params['from_date']}_{params['to_date']}.csv",
