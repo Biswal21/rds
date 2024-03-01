@@ -1,2 +1,3 @@
 .venv
-XBRR_Reports/*
+Output/*
+*.csv
